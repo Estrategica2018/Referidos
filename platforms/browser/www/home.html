@@ -17,6 +17,84 @@
 	<link rel="stylesheet" href="css/home.css">
   </head>
   <body>
+    <!-- Should be a direct child of BODY -->
+	<div class="login-screen" id="modalLogin">
+	  <!-- Default view-page layout -->
+	  <div class="view">
+		<div class="page">
+		  <!-- page-content has additional login-screen content -->
+		  <div class="page-content login-screen-content">
+			<div class="content-block">
+				<div class="login-screen-title">Iniciar Sesi&oacute;n</div>
+				<!-- Login form -->
+				<form>
+				  <div class="list-block">
+					<ul>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Usuario</div>
+						  <div class="item-input">
+							<input type="email" name="username" placeholder="Usuario" id="txtUsuario">
+						  </div>
+						</div>
+					  </li>
+					  <li class="item-content">
+						<div class="item-inner">
+						  <div class="item-title label">Contrase&ntilde;a</div>
+						  <div class="item-input">
+							<input type="password" name="password" placeholder="Contrase&ntilde;a" id="txtContrasena">
+						  </div>
+						</div>
+					  </li>
+					</ul>
+				  </div>
+				  <div class="row">
+					  <div class="col-50">
+						<p><a href="home.html" class="button button-big button-fill" id="btnIngresar">Ingresar</a></p>
+					  </div>
+					  <div class="col-50">
+						<p><a href="#" class="button button-big">Olvidaste contrase&ntilde;a</a></p>
+					  </div>
+				  </div>
+				  <div class="row">
+					  <div class="col-100">
+						<p><a href="#" class="button button-big button-fill" id="btnRegistrar">Registrar</a></p>
+					  </div>
+				  </div>
+				  <div class="row">
+				    <div class="col-100">
+						<p><a href="#" class="button button-big button-fill color-gray" id="btnCancelarLogin">Cancelar</a></p>
+					</div>
+				  </div>
+				</form>
+				<div class="swiper-container swiper-1">
+					<div class="swiper-pagination" style="bottom:auto;"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a href="#" id="lnkEnterate">
+								<img src="img/banner1.png" class="swiper-lazy">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" id="lnkPortafolio">
+								<img src="img/banner2.png" class="swiper-lazy">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<a href="#" id="lnkProyectos">
+								<img src="img/banner3.png" class="swiper-lazy">
+							</a>
+						</div>
+						<div class="swiper-slide">
+							<img src="img/banner4.png" class="swiper-lazy">
+						</div>
+					</div>
+				</div>
+		    </div>
+		  </div>
+		</div>
+	  </div>
+	</div>
     <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
     <!-- Panels overlay-->
@@ -37,33 +115,6 @@
     <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
     <div class="views tabs toolbar-through">
       <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
-	  <div id="view-5" class="view tab">
-        <!-- We can make with view with navigation, let's add Top Navbar-->
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="center sliding">
-				<img src="img/logo.png" width="150px">
-			</div>
-          </div>
-        </div>
-        <div class="pages navbar-through">
-          <div data-page="referidos" class="page">
-            <div class="page-content">
-              <div class="content-block">
-				<img src="img/tituloReferidos.png" width="100%">
-				  <div class="content-block">
-					<video style="width:100%; height:100%; border:solid;" controls>
-						<source src="http://www.estrategicacomunicaciones.com/mobile/vid/Referidos.mp4" type="video/mp4">
-					</video>
-				  </div>
-              </div>
-			  <div class="content-block">
-				<a href="terms.conditions.html" class="button button-big button-fill">Términos y Condiciones</a>
-   			  </div>
-            </div>			
-          </div>
-        </div>
-      </div>
       <div id="view-1" class="view view-main tab active">
 		<div class="navbar">
           <div class="navbar-inner">
@@ -75,10 +126,10 @@
         <!-- Pages-->
         <div class="pages navbar-through">
           <!-- Page, data-page contains page name-->
-          <div data-page="portafolio" class="page">
+          <div data-page="inicio" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">			
-			  <div data-pagination=".swiper-pagination-h" class="swiper-container swiper-home swiper-init">
+			  <div data-pagination=".swiper-pagination-h"class="swiper-container swiper-home swiper-init">
 				<div class="swiper-pagination swiper-pagination-h"></div>
 				<div class="swiper-wrapper">
 				  <div class="swiper-slide">
@@ -209,9 +260,7 @@
         <!-- We can make with view with navigation, let's add Top Navbar-->
         <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">
-				<img src="img/logo.png" width="150px">
-			</div>
+            <div class="center sliding">Proyectos</div>
           </div>
         </div>
         <div class="pages navbar-through">
@@ -267,81 +316,72 @@
 	    <!-- We can make with view with navigation, let's add Top Navbar-->
 	    <div class="navbar">
           <div class="navbar-inner">
-            <div class="center sliding">
-				<img src="img/logo.png" width="150px">
-			</div>
+            <div class="center sliding">Prospectos</div>
           </div>
         </div>
         <div class="pages navbar-through">
           <div data-page="prospectos" class="page">
             <div class="page-content">
+			  <div class="content-block-title">Prospectos</div>
               <div class="content-block">
-				  <img src="img/tituloProspectos.png" width="100%">
 				  <div class="list-block">
-					<ul id="ulProspectos"></ul>
+					<ul>
+					  <li>
+						  <a href="register.prospect.html" class="item-link">
+							  <div class="item-content">
+								<div class="item-inner"> 
+								  <div class="item-title">Prospecto 1</div>
+								</div>
+							  </div>
+						  </a>
+					  </li>
+					  <li>
+						  <a href="register.prospect.html" class="item-link">
+							  <div class="item-content">
+								<div class="item-inner"> 
+								  <div class="item-title">Prospecto 2</div>
+								</div>
+							  </div>
+						  </a>
+					  </li>
+					  <li>
+						  <a href="register.prospect.html" class="item-link">
+							  <div class="item-content">
+								<div class="item-inner"> 
+								  <div class="item-title">Prospecto 3</div>
+								</div>
+							  </div>
+						  </a>
+					  </li>
+					</ul>
 				  </div>
               </div>
-			  <div class="content-block">
-				<a href="register.prospect.html?nuevo=true" class="button button-big button-fill">Nuevo prospecto</a>
-   			  </div>
+			  <div class="list-block">
+				<ul>
+				  <li><a href="register.prospect.html" class="item-link">
+						  <div class="item-content">
+							<div class="item-inner"> 
+							  <div class="item-title">Nuevo prospecto</div>
+							</div>
+						  </div>
+					  </a>
+				  </li>
+				</ul>
+			  </div>
             </div>
           </div>
         </div>
       </div>
       <div id="view-4" class="view tab">
         <div class="pages navbar-fixed">
-          <div data-page="usuario" class="page">
+          <div data-page="index-4" class="page">
             <div class="navbar">
-			  <div class="navbar-inner">
-				<div class="center sliding">
-					<img src="img/logo.png" width="150px">
-				</div>
-			  </div>
-			</div>
-            <div class="page-content" >
-				<div class="divLogin list-block">
-					<div class="login-screen-title">Iniciar Sesi&oacute;n</div>
-					<!-- Login form -->
-					<form>
-					  <div class="list-block">
-						<ul>
-						  <li class="item-content">
-							<div class="item-inner">
-							  <div class="item-title label">Usuario</div>
-							  <div class="item-input">
-								<input type="email" name="username" placeholder="Usuario" id="txtUsuario">
-							  </div>
-							</div>
-						  </li>
-						  <li class="item-content">
-							<div class="item-inner">
-							  <div class="item-title label">Contrase&ntilde;a</div>
-							  <div class="item-input">
-								<input type="password" name="password" placeholder="Contrase&ntilde;a" id="txtContrasena">
-							  </div>
-							</div>
-						  </li>
-						</ul>
-					  </div>
-					  <div class="row content-block">
-						  <div class="col-50">
-							<p><a href="#" class="button button-big button-fill" id="btnIngresar">Ingresar</a></p>
-						  </div>
-						  <div class="col-50">
-							<p><a href="forget.password.html" class="button button-big">Olvidaste contrase&ntilde;a</a></p>
-						  </div>
-						  <div class="col-100">
-							<p><a href="#" class="button button-big button-fill" id="btnRegistrar">Registrar</a></p>
-						  </div>
-					  </div>
-					  <!--<div class="row content-block">
-						<div class="col-100">
-							<p><a href="#" class="button button-big button-fill color-gray" id="btnCancelarLogin">Cancelar</a></p>
-						</div>
-					  </div>-->
-					</form>
-				</div>
-              <div class="divRegister list-block" style="display:none;">
+              <div class="navbar-inner">
+                <div class="center">Usuario</div>
+              </div>
+            </div>
+            <div class="page-content">
+              <div class="list-block">
 				  <ul>
 					<li>
 					  <div class="item-content">
@@ -439,75 +479,68 @@
                     </div>
                   </li>-->
 					<li>
-						<div class="item-content">
-						  <div class="item-inner"> 
-							<div class="item-title label">Modificar</div>
-							<div class="item-input">
-							  <label class="label-switch">
-								<input type="checkbox" id="chkModificar">
-								<div class="checkbox"></div>
-							  </label>
-							</div>
-						  </div>
-						</div>
-					</li>
+                    <div class="item-content">
+                      <div class="item-inner"> 
+                        <div class="item-title label">Modificar</div>
+                        <div class="item-input">
+                          <label class="label-switch">
+                            <input type="checkbox" id="chkModificar">
+                            <div class="checkbox"></div>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
 				  </ul>
-					<div class="content-block" id="divGuardarUsuario" style="display:none;">
-					  <a href="#" class="button button-big button-fill color-green" id="btnGuardarUsuario">Guardar</a>
-					</div>
-					<div class="content-block">
-					  <a href="#" class="button button-big button-fill" id="btnSalir">Cerrar Sesi&oacute;n</a>
-					</div>
 				</div>
-				<div class="swiper-container swiper-1">
-					<div class="swiper-pagination swiper-pagination-1" style="bottom:auto;"></div>
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<a href="#" id="lnkEnterate">
-								<img src="img/banner1.png" class="swiper-lazy">
-							</a>
-						</div>
-						<div class="swiper-slide">
-							<a href="#" id="lnkPortafolio">
-								<img src="img/banner2.png" class="swiper-lazy">
-							</a>
-						</div>
-						<div class="swiper-slide">
-							<a href="#" id="lnkProyectos">
-								<img src="img/banner3.png" class="swiper-lazy">
-							</a>
-						</div>
-						<div class="swiper-slide">
-							<a href="#" id="lnkTerCond">
-								<img src="img/banner4.png" class="swiper-lazy">
-							</a>
-						</div>
-					</div>
-				</div>	
+				<div class="content-block" id="divGuardarUsuario" style="display:none;">
+				  <a href="#" class="button button-big button-fill color-green" id="btnGuardarUsuario">Guardar</a>
+				</div>
+				<div class="content-block">
+				  <a href="#" class="button button-big button-fill" id="btnSalir">Iniciar Sesi&oacute;n</a>
+				</div>
             </div>
+          </div>
+        </div>
+      </div>
+	  <div id="view-5" class="view tab">
+        <!-- We can make with view with navigation, let's add Top Navbar-->
+        <div class="navbar">
+          <div class="navbar-inner">
+            <div class="center sliding">Entérate</div>
+          </div>
+        </div>
+        <div class="pages navbar-through">
+          <div data-page="proyectos" class="page">
+            <div class="page-content">
+              <div class="content-block">
+				<video style="width:100%; height:100%; border:solid;" controls>
+					<source src="http://www.estrategicacomunicaciones.com/mobile/vid/Referidos.mp4" type="video/mp4">
+				</video>
+              </div>
+			  <div class="content-block">
+				<a href="#" class="button button-big button-fill" id="btnVolverReferidos">Volver</a>
+			  </div>
+            </div>			
           </div>
         </div>
       </div>
       <!-- Bottom Tabbar-->
       <div class="toolbar tabbar tabbar-labels" id="tbMenu">
         <div class="toolbar-inner">
-			<a href="#view-5" class="tab-link">
-				<i class="material-icons">public</i>
-				<span class="tabbar-label">Referidos</span>
-			</a>
-			<a href="#view-1" class="tab-link" id="tb1">
+			<a href="#view-1" class="tab-link active">
 				<i class="material-icons">business_center</i>
 				<span class="tabbar-label">Portafolio</span>
 			</a>
-			<a href="#view-2" class="tab-link" id="tb2">
+			<a href="#view-2" class="tab-link">
 				<i class="material-icons">extension</i>
 				<span class="tabbar-label">Proyectos</span>
 			</a>
-			<a href="#view-3" class="tab-link" id="tb3" style="display:none;">
+			<a href="#view-3" class="tab-link">
 				<i class="material-icons">group</i>
 				<span class="tabbar-label">Prospectos</span>
 			</a>
-			<a href="#view-4" class="tab-link" id="tb4">
+			<a href="#view-4" class="tab-link">
 				<i class="material-icons">account_box</i>
 				<span class="tabbar-label">Usuario</span>
 			</a>
@@ -520,7 +553,5 @@
     <script type="text/javascript" src="js/my-app.js"></script>
 	<script type="text/javascript" src="js/login.js"></script>
 	<script type="text/javascript" src="js/home.js"></script>
-	<script type="text/javascript" src="js/register.prospect.js"></script>
-	<script type="text/javascript" src="js/forget.password.js"></script>
   </body>
 </html>

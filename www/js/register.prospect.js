@@ -1,66 +1,51 @@
-myApp.onPageInit('prospecto', function (page) {
-	
-	if (page.query.nuevo == 'true') {
-		$('#btnGuardarProspecto').show();
-		$('#btnModificarProspecto').hide();
-		$('#lblTitle').html('Nuevo Prospecto');
-	} else {
-		$('#btnModificarProspecto').show();
-		$('#btnGuardarProspecto').hide();
-		$('#lblTitle').html('Prospecto');
-		$('#txtIdProspecto').val(page.query.id_prospecto);
-		$('#txtNombreEmpresa').val(page.query.nombre_empresa);
-		$('#txtNombreContacto').val(page.query.nombre_contacto);
-		$('#txtCargoContacto').val(page.query.cargo_contacto);
-		$('#txtTelefonoPros').val(page.query.telefono);
-		$('#txtOportunidad').val(page.query.oportunidad);
-		$('#txtFecha').val(page.query.fecha_cita);
-		$('#txtHora').val(page.query.hora_cita);
-	}
+var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August' , 'September' , 'October', 'November', 'December'];
+ 
+var calendarInline = myApp.calendar({
+    container: '#calendar-inline-container',
+    value: [new Date()],
+    weekHeader: false,
+    toolbarTemplate: 
+        '<div class="toolbar calendar-custom-toolbar">' +
+            '<div class="toolbar-inner">' +
+                '<div class="left">' +
+                    '<a href="#" class="link icon-only"><i class="icon icon-back"></i></a>' +
+                '</div>' +
+                '<div class="center"></div>' +
+                '<div class="right">' +
+                    '<a href="#" class="link icon-only"><i class="icon icon-forward"></i></a>' +
+                '</div>' +
+            '</div>' +
+        '</div>',
+    onOpen: function (p) {
+        $('.calendar-custom-toolbar .center').text(monthNames[p.currentMonth] +', ' + p.currentYear);
+        $('.calendar-custom-toolbar .left .link').on('click', function () {
+            calendarInline.prevMonth();
+        });
+        $('.calendar-custom-toolbar .right .link').on('click', function () {
+            calendarInline.nextMonth();
+        });
+    },
+    onMonthYearChangeStart: function (p) {
+        $('.calendar-custom-toolbar .center').text(monthNames[p.currentMonth] +', ' + p.currentYear);
+    }
+});
 
-	$('#btnGuardarProspecto').on('click', function() {
-		$.post('http://www.estrategicacomunicaciones.com/mobile/php/register.prospect.php', {
-			'nombre_empresa' : $('#txtNombreEmpresa').val(),
-			'nombre_contacto' : $('#txtNombreContacto').val(),
-			'cargo_contacto' : $('#txtCargoContacto').val(),
-			'telefono' : $('#txtTelefonoPros').val(),
-			'oportunidad' : $('#txtOportunidad').val(),
-			'fecha_cita' : $('#txtFecha').val(), 
-			'hora_cita' : $('#txtHora').val(), 
-			'id_usuario' : getCookie('id_usuario')
-		}, function(response) {
-			if (response.state == 'true') {
-				myApp.alert(response.message ,'Referidos');
-				myApp.showTab('#view-3');
-				cargarProspectos(getCookie('id_usuario'));
-				view3.router.back();
-			} else {
-				myApp.alert('El registro no fue exitoso' ,'Referidos');
-			}
-		}, 'json');
-	});
-	
-	$('#btnModificarProspecto').on('click', function() {
-		$.post('http://www.estrategicacomunicaciones.com/mobile/php/edit.prospect.php', {
-			'id_prospecto' : $('#txtIdProspecto').val(),
-			'nombre_empresa' : $('#txtNombreEmpresa').val(),
-			'nombre_contacto' : $('#txtNombreContacto').val(),
-			'cargo_contacto' : $('#txtCargoContacto').val(),
-			'telefono' : $('#txtTelefonoPros').val(),
-			'oportunidad' : $('#txtOportunidad').val(),
-			'fecha_cita' : $('#txtFecha').val(), 
-			'hora_cita' : $('#txtHora').val(), 
-			'id_usuario' : getCookie('id_usuario')
-		}, function(response) {
-			if (response.state == 'true') {
-				myApp.alert(response.message ,'Referidos');
-				myApp.showTab('#view-3');
-				cargarProspectos(getCookie('id_usuario'));
-				view3.router.back();
-			} else {
-				myApp.alert('El registro no fue exitoso' ,'Referidos');
-			}
-		}, 'json');
-	});
-  
+$('#btnEnviarProspecto').on('click', function() {
+	$.post('http://www.estrategicacomunicaciones.com/mobile/php/regsiter.prospect.php', {
+		'nombre_empresa' : $('txtNombreEmpresa').val(),
+		'nombre_contacto' : $('txtNombreContacto').val(),
+		'cargo_contacto' : $('txtCargoContacto').val(),
+		'telefono' : $('txtTelefono').val(),
+		'oportunidad' : $('txtOportunidad').val(),
+		'cita' : $('txtCita').val(), 
+		'id_usuario' : $('txtIdUsuario').val()
+	}, function(response) {
+		if (response.state == 'true') {
+			$('#txtNombre').val(response.result[0].nombres + " " + response.result[0].apellidos);
+			$('#txtIdentificacion').val(response.result[0].identificacion);
+			$('#txtEmail').val(response.result[0].correo);
+			$('#txtTelefono').val(response.result[0].telefono);
+			$('#cmbGenero').val(response.result[0].genero);	
+		}
+	}, 'json');
 });
