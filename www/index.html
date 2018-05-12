@@ -37,19 +37,26 @@
     * Create your own at http://cspisawesome.com
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
+    <script type="text/javascript" charset="utf-8"
+            src="phonegap.js"> </script>
 
+    <script type="text/javascript" charset="utf-8">
+
+        function onBodyLoad() {
+            document.addEventListener("deviceready",onDeviceReady,
+                false);
+        }
+
+        function onDeviceReady() {
+            navigator.notification.alert("PhoneGap is ready!");
+        }
+    </script>
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>Referidos</title>
 </head>
 
-<body>
+<body onload="onBodyLoad()">
 
-    <div class="app">
-        <div id="deviceready" class="blink">
-            <p class="event listening">Conectando</p>
-            <p class="event received">Dispositivo listo</p>
-        </div>
-    </div>
     <script type="text/javascript" src="cordova.js"></script>
 	<script type="text/javascript" src="js/my-app.js"></script>
     <script type="text/javascript" src="js/index.js"></script>

@@ -1,9 +1,10 @@
 // Initialize your app
-var myApp;
-myApp = new Framework7();
+var myApp = new Framework7(
+	{ modalTitle: 'Referidos',
+	});
 
 // Export selectors engine
-var $$ = Dom7;
+var $$ = Framework7.$; ;
 
 // Add views
 var view1 = myApp.addView('#view-1');
