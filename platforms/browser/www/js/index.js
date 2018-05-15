@@ -18,11 +18,11 @@
  */
 
 
-var pagina="home.html"
-function redireccionar()
-{
-    location.href=pagina;
-}
+//var pagina="home.html"
+//function redireccionar()
+//{
+    //location.href=pagina;
+//}
 var app = {
     // Application Constructor
     initialize: function() {
@@ -55,7 +55,7 @@ var app = {
        
         //var pagina="home.html"
         //location.href=pagina;
-        window.setTimeout ("redireccionar()", 3500);
+        //window.setTimeout ("redireccionar()", 3500);
 
     }
 };

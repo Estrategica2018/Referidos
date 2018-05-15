@@ -14,7 +14,6 @@
         Estrategica Comunicaciones
     </author>
     <content src="index.html" />
-    <icon src="res/logo.png" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
