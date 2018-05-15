@@ -16,6 +16,13 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+
+var pagina="home.html"
+function redireccionar()
+{
+    location.href=pagina;
+}
 var app = {
     // Application Constructor
     initialize: function() {
@@ -46,9 +53,9 @@ var app = {
 
         console.log('Received Event: ' + id);
        
-
-        var pagina="home.html"
-        location.href=pagina;
+        //var pagina="home.html"
+        //location.href=pagina;
+        window.setTimeout ("redireccionar()", 3500);
 
     }
 };
