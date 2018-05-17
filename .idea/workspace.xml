@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/css/my-app.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/css/my-app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/less/my-app.less" beforeDir="false" afterPath="$PROJECT_DIR$/www/less/my-app.less" afterDir="false" />
-    </list>
+    <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,8 +205,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="205" />
+    <option name="x" value="44" />
+    <option name="y" value="23" />
     <option name="width" value="1658" />
     <option name="height" value="993" />
   </component>
@@ -306,12 +300,12 @@
       <workItem from="1526135684045" duration="2359000" />
       <workItem from="1526398502151" duration="4169000" />
       <workItem from="1526505513357" duration="7631000" />
-      <workItem from="1526574323551" duration="1893000" />
+      <workItem from="1526574323551" duration="2400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20960000" />
+    <option name="totallyTimeSpent" value="21467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="265" y="205" width="1658" height="993" extended-state="0" />

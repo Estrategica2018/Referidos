@@ -13,6 +13,7 @@
     <author email="operaciones@estrategicaco.com" href="http://estrategicacomunicaciones.com">
         Estrategica Comunicaciones
     </author>
+    <icon density="mdpi" height="57" platform="android" src="img/logo.png" width="57" />
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
