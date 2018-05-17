@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/android/icon-36-ldpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/android/icon-48-mdpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/android/icon-72-hdpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/android/icon-96-xhdpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/bada-wac/icon-48-type5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/bada-wac/icon-50-type3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/bada-wac/icon-80-type4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/bada/icon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/blackberry/icon-80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/blackberry10/icon-80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72-2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/tizen/icon-128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/webos/icon-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/windows-phone/icon-173-tile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/windows-phone/icon-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/windows-phone/icon-62-tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +12,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="icon-76@2x.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76@2x.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="icon-76.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Square44x44Logo.scale-240.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/windows/Square44x44Logo.scale-240.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="StoreLogo.scale-100.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/windows/StoreLogo.scale-100.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationIcon.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/icon/wp8/ApplicationIcon.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="drawable-land-ldpi-screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/android/drawable-land-ldpi-screen.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="drawable-port-xxxhdpi-screen.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/android/drawable-port-xxxhdpi-screen.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="Default-736h.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/ios/Default-736h.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="SplashScreenPhone.scale-240.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/screen/windows/SplashScreenPhone.scale-240.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/res/logo.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -42,7 +75,6 @@
       <find>&lt;h1&gt;Es</find>
       <find>conectando</find>
       <find>.listenin</find>
-      <find>.png</find>
       <find>logo.png</find>
       <find>/logo.png</find>
       <find>logos</find>
@@ -51,11 +83,14 @@
       <find>intro-im</find>
       <find>.jpg</find>
       <find>SplashScreenImage.jpg</find>
+      <find>.png</find>
+      <find>screen-WXGA.jpg</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/www/img</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/..</dir>
+      <dir>$PROJECT_DIR$/</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -189,8 +224,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="49" />
+    <option name="x" value="84" />
+    <option name="y" value="194" />
     <option name="width" value="1658" />
     <option name="height" value="993" />
   </component>
@@ -230,6 +265,93 @@
               <item name="platforms" type="462c0819:PsiDirectoryNode" />
               <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="wp8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="screen" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -280,15 +402,16 @@
       <workItem from="1526135454613" duration="215000" />
       <workItem from="1526135684045" duration="2359000" />
       <workItem from="1526398502151" duration="4169000" />
-      <workItem from="1526505513357" duration="5837000" />
+      <workItem from="1526505513357" duration="6570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17273000" />
+    <option name="totallyTimeSpent" value="18006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="49" width="1658" height="993" extended-state="0" />
+    <frame x="84" y="194" width="1658" height="993" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -323,54 +446,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/img/home.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/educacion_plataforma_educativa.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/educacion_plataforma.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/educacion_material.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/educacion_contenido.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/educacion.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo_web.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo_software.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo_movil.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo_educativo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo_ebooks.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/desarrollo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/banner4.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/banner3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/banner2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/img/banner1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/img/audiovisual_videotv.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -416,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="44" lean-forward="true" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/img/logo1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -447,9 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/res/logo.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/www/img/audiovisual.png">
       <provider selected="true" editor-type-id="images" />
@@ -509,6 +574,64 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="62" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/36-36.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/48-48.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/72*72.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/drawable-hdpi-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/drawable-mdpi-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/android/drawable-ldpi-icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/windows/Square44x44Logo.scale-240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/wp8/ApplicationIcon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/drawable-land-ldpi-screen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/android/drawable-port-xxxhdpi-screen.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/ios/Default-736h.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/screen/windows/SplashScreenPhone.scale-240.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/windows/StoreLogo.scale-100.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
