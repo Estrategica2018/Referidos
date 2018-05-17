@@ -149,16 +149,16 @@ namespace WPCordovaClassLib.Cordova.Commands
                 switch (ResolutionHelper.CurrentResolution)
                 {
                     case Resolutions.HD:
-                        imageUri = new Uri(imageName + ".screen-720p.jpg", UriKind.Relative);
+                        //imageUri = new Uri(imageName + ".screen-720p.jpg", UriKind.Relative);
                         break;
 
                     case Resolutions.WVGA:
-                        imageUri = new Uri(imageName + ".screen-WVGA.jpg", UriKind.Relative);
+                       // imageUri = new Uri(imageName + ".screen-WVGA.jpg", UriKind.Relative);
                         break;
 
                     case Resolutions.WXGA:
                     default:
-                        imageUri = new Uri(imageName + ".screen-WXGA.jpg", UriKind.Relative);
+                        //imageUri = new Uri(imageName + ".screen-WXGA.jpg", UriKind.Relative);
                         break;
                 }
 
