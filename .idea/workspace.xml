@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,50 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="my-app.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/www/less/my-app.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my-app.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/www/css/my-app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="32" column="481" selection-start-line="32" selection-start-column="481" selection-end-line="32" selection-end-column="481" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/js/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplashScreen.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
-              <caret line="180" column="14" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+            <state relative-caret-position="243">
+              <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -74,13 +34,14 @@
       <find>logo.pn</find>
       <find>version</find>
       <find>delay</find>
-      <find />
+      <find>var splashS</find>
       <find>Wide310x150Logo.scale-240.</find>
       <find>92-</find>
       <find>drawa</find>
       <find>app</find>
       <find>Referidos</find>
       <find>alt=</find>
+      <find>1.0.0</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/www/img</dir>
@@ -231,8 +192,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="221" />
-    <option name="y" value="82" />
+    <option name="x" value="111" />
+    <option name="y" value="112" />
     <option name="width" value="1848" />
     <option name="height" value="993" />
   </component>
@@ -355,15 +316,15 @@
       <workItem from="1526574323551" duration="3105000" />
       <workItem from="1526609779073" duration="11147000" />
       <workItem from="1526660699497" duration="1183000" />
-      <workItem from="1526683229720" duration="652000" />
+      <workItem from="1526683229720" duration="1333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30345000" />
+    <option name="totallyTimeSpent" value="31026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="221" y="82" width="1848" height="993" extended-state="0" />
+    <frame x="111" y="112" width="1848" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -372,7 +333,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13510521" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17220376" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -655,10 +616,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-72.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-76.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-72@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-60@3x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-60.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-50@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-50.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-40@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-60@2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        <state relative-caret-position="243">
+          <caret line="65" column="67" lean-forward="true" selection-start-line="65" selection-start-column="67" selection-end-line="65" selection-end-column="67" />
         </state>
       </provider>
     </entry>
