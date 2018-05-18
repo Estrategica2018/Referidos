@@ -25,8 +25,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="80">
+              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -73,7 +73,7 @@
       <find>logo.pn</find>
       <find>version</find>
       <find>delay</find>
-      <find />
+      <find>var splashS</find>
       <find>Wide310x150Logo.scale-240.</find>
       <find>92-</find>
       <find>drawa</find>
@@ -337,15 +337,15 @@
       <workItem from="1526398502151" duration="4169000" />
       <workItem from="1526505513357" duration="7631000" />
       <workItem from="1526574323551" duration="3105000" />
-      <workItem from="1526609779073" duration="10222000" />
+      <workItem from="1526609779073" duration="10600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27585000" />
+    <option name="totallyTimeSpent" value="27963000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="104" width="1848" height="911" extended-state="0" />
+    <frame x="193" y="23" width="1848" height="911" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -640,8 +640,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
