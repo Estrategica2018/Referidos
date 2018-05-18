@@ -49,7 +49,7 @@ namespace WPCordovaClassLib.Cordova.Commands
         private bool prefAutoHide = true;
 
         // Path to image to use
-        private string prefImagePath = "SplashScreenImage.jpg";
+        //private string prefImagePath = "SplashScreenImage.jpg";
 
         // static because autodismiss is only ever applied once, at app launch
         // subsequent page loads should not cause the SplashScreen to be shown.
@@ -149,16 +149,16 @@ namespace WPCordovaClassLib.Cordova.Commands
                 switch (ResolutionHelper.CurrentResolution)
                 {
                     case Resolutions.HD:
-                        imageUri = new Uri(imageName + ".screen-720p.jpg", UriKind.Relative);
+                        //imageUri = new Uri(imageName + ".screen-720p.jpg", UriKind.Relative);
                         break;
 
                     case Resolutions.WVGA:
-                        imageUri = new Uri(imageName + ".screen-WVGA.jpg", UriKind.Relative);
+                       // imageUri = new Uri(imageName + ".screen-WVGA.jpg", UriKind.Relative);
                         break;
 
                     case Resolutions.WXGA:
                     default:
-                        imageUri = new Uri(imageName + ".screen-WXGA.jpg", UriKind.Relative);
+                       // imageUri = new Uri(imageName + ".screen-WXGA.jpg", UriKind.Relative);
                         break;
                 }
 
@@ -172,13 +172,13 @@ namespace WPCordovaClassLib.Cordova.Commands
             // Fallback to the default image name without decoration
             if (imageResource == null)
             {
-                imageUri = new Uri(prefImagePath, UriKind.Relative);
-                imageResource = Application.GetResourceStream(imageUri);
+                //imageUri = new Uri(prefImagePath, UriKind.Relative);
+                //imageResource = Application.GetResourceStream(imageUri);
             }
 
             if (imageUri != null) Debug.WriteLine("INFO :: SplashScreen: using image {0}", imageUri.OriginalString);
 
-            return imageResource;
+            //return imageResource;
         }
 
         public void show(string options = null)
