@@ -7,6 +7,7 @@
     <author email="operaciones@estrategicaco.com" href="http://estrategicacomunicaciones.com">
         Estrategica Comunicaciones
     </author>
+
     <icon src="res/logo.png" />
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
