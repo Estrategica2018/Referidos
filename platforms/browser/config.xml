@@ -13,7 +13,7 @@
     <author email="operaciones@estrategicaco.com" href="http://estrategicacomunicaciones.com">
         Estrategica Comunicaciones
     </author>
-    <icon src="icon/ios/icon.png" width="1024" height="1024" />
+    <icon src="res/logo.png" width="1024" height="1024" />
     <!--<preference name="phonegap-version" value="cli-7.1.0" />-->
     <content src="index.html" />
     <access origin="*" />
