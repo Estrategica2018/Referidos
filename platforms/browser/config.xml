@@ -14,7 +14,7 @@
         Estrategica Comunicaciones
     </author>
     <icon src="icon/ios/icon.png" width="1024" height="1024" />
-    <preference name="phonegap-version" value="cli-7.1.0" />
+    <!--<preference name="phonegap-version" value="cli-7.1.0" />-->
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
