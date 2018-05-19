@@ -75,7 +75,7 @@
         <icon height="58" platform="ios" src="www/res/icon/ios/icon-small@2x.png" width="58" />
         <icon height="87" platform="ios" src="www/res/icon/ios/icon-small@3x.png" width="87" />
 
-        <!--
+
         <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
         <splash height="2208" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1242" />
@@ -87,7 +87,7 @@
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
 
-    -->
+
     </platform>
     <platform name="wp8">
         <icon height="99"  src="www/res/icon/android/96-96.png" width="99" />
