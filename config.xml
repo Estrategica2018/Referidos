@@ -9,7 +9,7 @@
     </author>
 
 
-    <icon src="logo.png" width="1024" height="1024" />
+    <icon src="www/logo.jpg" width="1024" height="1024" />
     <!--<preference name="phonegap-version" value="cli-7.1.0" />-->
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -57,7 +57,7 @@
     -->
     </platform>
     <platform name="ios">
-        <icon src="www/logo.png" platform="ios" width="1024" height="1024" />
+        <icon src="www/logo.jpg" platform="ios" width="1024" height="1024" />
         <icon height="1024" platform="ios" src="www/res/icon/ios/icon.png" width="1024" />
         <icon height="1024" platform="ios" src="www/res/icon/ios/icon@2x.png" width="1024" />
         <icon height="1024" platform="ios" src="www/res/icon/ios/icon-40.png" width="1024" />
