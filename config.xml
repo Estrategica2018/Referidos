@@ -9,7 +9,7 @@
     </author>
 
 
-    <icon src="www/logo.jpg" width="1024" height="1024" />
+    <icon src="platforms/logo.jpg" width="1024" height="1024" />
     <!--<preference name="phonegap-version" value="cli-7.1.0" />-->
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -57,7 +57,7 @@
     -->
     </platform>
     <platform name="ios">
-        <icon src="www/logo.jpg" platform="ios" width="1024" height="1024" />
+        <icon src="platforms/logo.jpg" platform="ios" width="1024" height="1024" />
         <icon height="57" platform="ios" src="www/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="www/res/icon/ios/icon@2x.png" width="114" />
         <icon height="40" platform="ios" src="www/res/icon/ios/icon-40.png" width="40" />
@@ -86,21 +86,6 @@
         <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" />
         <splash height="960" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="640" />
         <splash height="480" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="320" />
-
-
-
-
-
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-667h.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-736h.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Landscape-736h.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default-Portrait~ipad.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default@2x~iphone.png" width="1024" />
-        <splash height="1024" platform="ios" src="www/res/screen/ios/Default~iphone.png" width="1024" />
 
 
     </platform>
