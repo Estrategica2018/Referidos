@@ -4,6 +4,31 @@
     <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Assets.car" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-144.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-152.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-167.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-72.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-72.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-76.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-76.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Notification.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Notification@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Notification@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small-120.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small-80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Small@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/icon/ios/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/www/res/screen/ios/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/res/icon/ios/icon.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,15 +42,10 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="220">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="71" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Icon-Store.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Store.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
@@ -36,8 +56,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -102,12 +122,12 @@
         <option value="$PROJECT_DIR$/platforms/browser/www/css/my-app.css" />
         <option value="$PROJECT_DIR$/platforms/browser/js/index.js" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" />
-        <option value="$PROJECT_DIR$/platforms/browser/www/config.xml" />
         <option value="$PROJECT_DIR$/platforms/browser/config.xml" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" />
         <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/platforms/browser/www/config.xml" />
       </list>
     </option>
   </component>
@@ -242,49 +262,17 @@
             <path>
               <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
               <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
               <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
               <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="icon" type="462c0819:PsiDirectoryNode" />
@@ -292,8 +280,6 @@
             <path>
               <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
               <item name="Referidos" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="icon" type="462c0819:PsiDirectoryNode" />
@@ -315,11 +301,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/res/icon/ios" />
       <recent name="$PROJECT_DIR$/platforms/browser/www/res/icon" />
       <recent name="$PROJECT_DIR$/platforms/browser/res/icon/ios" />
       <recent name="$PROJECT_DIR$/platforms/browser/www/res/icon/ios" />
       <recent name="$PROJECT_DIR$/platforms/browser/res/icon" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/www/res" />
@@ -356,12 +342,12 @@
       <workItem from="1526660699497" duration="1183000" />
       <workItem from="1526683229720" duration="1640000" />
       <workItem from="1526738867359" duration="9275000" />
-      <workItem from="1526752791891" duration="8491000" />
+      <workItem from="1526752791891" duration="9051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49099000" />
+    <option name="totallyTimeSpent" value="49659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="136" width="1812" height="992" extended-state="0" />
@@ -400,13 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1220">
@@ -689,20 +668,23 @@
     <entry file="file://$PROJECT_DIR$/platforms/browser/res/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/www/res/icon/ios/Icon-Store.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="71" selection-start-line="15" selection-start-column="71" selection-end-line="15" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="220">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
