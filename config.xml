@@ -60,8 +60,8 @@
         <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
 
     <!--icons news-->
-
-        <icon height="57" platform="ios" src="platforms/browser/res/icon/ios/Icon.png" width="57" />
+        platforms/browser/res/icon/ios/Icon.png
+        <icon height="57" platform="ios" src="platforms/browser/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="platforms/browser/res/icon/ios/Icon-144.png" width="114" />
         <icon height="40" platform="ios" src="platforms/browser/res/icon/ios/Icon-Small-40.png" width="40" />
         <icon height="80" platform="ios" src="platforms/browser/res/icon/ios/Icon-Small-80.png" width="80" />
