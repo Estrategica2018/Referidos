@@ -60,7 +60,7 @@
         <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
 
     <!--icons news-->
-        
+
         <icon height="57" platform="ios" src="platforms/browser/res/icon/ios/icon.png" width="57" />
         <icon height="114" platform="ios" src="platforms/browser/res/icon/ios/Icon-144.png" width="114" />
         <icon height="40" platform="ios" src="platforms/browser/res/icon/ios/Icon-Small-40.png" width="40" />
@@ -76,7 +76,7 @@
         <icon height="152" platform="ios" src="platforms/browser/res/icon/ios/Icon-152.png" width="152" />
         <icon height="29" platform="ios" src="platforms/browser/res/icon/ios/Icon-Small.png" width="29" />
         <!--<icon height="58" platform="ios" src="platforms/browser/res/icon/ios/icon.png" width="58" />-->
-        <icon height="87" platform="ios" src="platforms/browser/res/icon/ios/Icon-Small@3x.png" width="87" />
+        <icon height="87" platform="ios" src="platforms/browser/res/icon/ios/icon-small@3x.png" width="87" />
 
         <splash height="1136" platform="ios" src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" />
         <splash height="1334" platform="ios" src="www/res/screen/ios/Default-667h.png" width="750" />
