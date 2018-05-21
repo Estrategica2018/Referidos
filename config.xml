@@ -10,7 +10,7 @@
 
 
     <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
-    <preference name="phonegap-version" value="7.1.0" />
+    <preference name="phonegap-version" value="cli-7.1.0" />
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
