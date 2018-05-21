@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Notification@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Notification@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Small-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Small-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Small-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/Icon-Store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/res/icon/ios/logo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon-small@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/res/icon/ios/icon@2x.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +36,8 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="-234">
+              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -26,8 +45,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+            <state relative-caret-position="375">
+              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -43,11 +62,6 @@
       </file>
       <file leaf-file-name="Icon-152.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-152.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="icon-small@3x.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-small@3x.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -438,12 +452,12 @@
       <workItem from="1526660699497" duration="1183000" />
       <workItem from="1526683229720" duration="1640000" />
       <workItem from="1526738867359" duration="9275000" />
-      <workItem from="1526752791891" duration="20030000" />
+      <workItem from="1526752791891" duration="20310000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60638000" />
+    <option name="totallyTimeSpent" value="60918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="202" y="25" width="1812" height="992" extended-state="0" />
@@ -505,7 +519,7 @@
     <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-72@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-small@3x.png">
+    <entry file="file://$PROJECT_DIR$/www/res/icon/ios/Icon-Small@3x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www/res/icon/ios/icon-40.png">
@@ -764,8 +778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="108" column="45" selection-start-line="108" selection-start-column="45" selection-end-line="108" selection-end-column="45" />
+        <state relative-caret-position="375">
+          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -781,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="-234">
+          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
         </state>
       </provider>
     </entry>
