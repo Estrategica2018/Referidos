@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8301b4-31d6-4dfa-885c-a1277fdce426" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Assets.car" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Notification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Notification@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Notification@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small-40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small-80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Small@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-Store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon@2x.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,31 +41,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="293">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/platforms/browser/www/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-            </state>
-          </provider>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/platforms/browser/res/logo.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -100,10 +115,12 @@
         <option value="$PROJECT_DIR$/platforms/browser/www/css/my-app.css" />
         <option value="$PROJECT_DIR$/platforms/browser/js/index.js" />
         <option value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/src/wp/SplashScreen.cs" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/config.xml" />
-        <option value="$PROJECT_DIR$/platforms/browser/config.xml" />
         <option value="$PROJECT_DIR$/platforms/browser/www/config.xml" />
+        <option value="$PROJECT_DIR$/platforms/browser/config.xml" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/config.xml" />
+        <option value="$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist" />
+        <option value="$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist" />
       </list>
     </option>
   </component>
@@ -217,8 +234,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="186" />
+    <option name="x" value="23" />
+    <option name="y" value="240" />
     <option name="width" value="1812" />
     <option name="height" value="992" />
   </component>
@@ -249,7 +266,51 @@
             <path>
               <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
               <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Referidos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Referidos" type="462c0819:PsiDirectoryNode" />
+              <item name="platforms" type="462c0819:PsiDirectoryNode" />
+              <item name="browser" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="ios" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,6 +319,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="info.pl&#9;FILE&#9;file:///Users/Estacion4/Desktop/repositorio/Referidos/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist&#10;info.pli&#9;FILE&#9;file:///Users/Estacion4/Desktop/repositorio/Referidos/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -265,15 +327,15 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/www/res" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/platforms/browser/res/icon" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/www" />
       <recent name="$PROJECT_DIR$/platforms/browser/www/res/screen/ios" />
       <recent name="$PROJECT_DIR$/platforms/browser/www/res/icon/ios" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/platforms/browser/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www/res" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,16 +369,15 @@
       <workItem from="1526660699497" duration="1183000" />
       <workItem from="1526683229720" duration="1640000" />
       <workItem from="1526738867359" duration="9275000" />
-      <workItem from="1526752791891" duration="1123000" />
+      <workItem from="1526752791891" duration="6434000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41731000" />
+    <option name="totallyTimeSpent" value="47042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="186" width="1812" height="992" extended-state="0" />
-    <editor active="true" />
+    <frame x="7" y="71" width="1812" height="992" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677966" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -351,13 +412,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -614,8 +668,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/platforms/browser/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="20">
+          <caret line="1" column="54" selection-start-line="1" selection-start-column="54" selection-end-line="1" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -626,12 +680,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
+    <entry file="file://$PROJECT_DIR$/platforms/browser/logo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-camera/tests/ios/CDVCameraTest/CDVCameraLibTests/Info.plist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="-40">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/cordova-plugin-splashscreen/tests/ios/CDVSplashScreenTest/CDVSplashScreenLibTests/Info.plist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-57-2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/Icon-72.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/ios/icon-72-2x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/icon/android/icon-48-mdpi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/platforms/browser/res/logo.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
