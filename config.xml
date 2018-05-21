@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="referidos.estrategica.com." version="1.2.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">6
+<widget id="referidos.estrategica.com." version="1.2.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">6
     <name>Referidos</name>
     <description>
         Referidos
@@ -7,7 +7,7 @@
     <author email="operaciones@estrategicaco.com" href="http://estrategicacomunicaciones.com">
         Estrategica Comunicaciones
     </author>
-    <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
+    <icon src="www/res/icon/ios/Icon-Store.png" width="1024" height="1024" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
@@ -31,7 +31,7 @@
     <plugin name="cordova-plugin-splashscreen" source="npm" />
     <plugin name="cordova-plugin-statusbar" source="npm" />
     <plugin name="cordova-plugin-vibration" source="npm"  />
-    <!--<plugin name="cordova-plugin-whitelist" source="npm" />-->
+    <!--<plugin name="cordova-plugin-whitelist" source="npm" kkk/>-->
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/36-36.png" />
         <icon density="mdpi" src="www/res/icon/android/48-48.png" />
@@ -55,7 +55,7 @@
     -->
     </platform>
     <platform name="ios">
-        <icon src="www/res/icon/ios/icon.png" width="1024" height="1024" />
+        <icon src="www/res/icon/ios/Icon-Store.png" width="1024" height="1024" />
 
 
         <!--icons news-->
